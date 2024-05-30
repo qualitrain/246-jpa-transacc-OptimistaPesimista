@@ -1,0 +1,16 @@
+App Web war ejemplo usado en video de transacciones de QualitrainTV
+
+En mayo del 2024:
+
+Compatible con apache tomcat 10.1:
+Spec Servlet 6.0
+Spec JSP 3.1
+Spec JSTL 3.0
+Spec EL 5.0
+
+Compatible con Hibernate 6.5:
+Spec Jakarta Persistence (antes JPA) 3.1 
+
+Requiere MySql 8+ para que sql de los locks de transacciones se genere ok
+
+Java 17
