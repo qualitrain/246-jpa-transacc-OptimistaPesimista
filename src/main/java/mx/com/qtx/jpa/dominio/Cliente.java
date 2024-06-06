@@ -35,7 +35,7 @@ public class Cliente  implements Serializable {
 	private List<Venta> ventas;
 	
 	@Version
-	@Column(name="CTE_VERSION_LOCK")
+	@Column(name="CTE_VERSION_LOCK", nullable=false)
 	private long version;
 	
 	public Cliente() {

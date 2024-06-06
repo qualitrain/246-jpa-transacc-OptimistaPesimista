@@ -7,11 +7,11 @@
   <persistence-unit name="bdEjmTransacciones" transaction-type="RESOURCE_LOCAL">
   	<description>Contiene tablas para registrar ventas</description>
   	<jta-data-source>java:/comp/env/jdbc/AlexDB</jta-data-source>
- 	<class>qtx.jpa.dominio.Articulo</class>
- 	<class>qtx.jpa.dominio.Cliente</class>
- 	<class>qtx.jpa.dominio.Venta</class>
- 	<class>qtx.jpa.dominio.DetalleVenta</class>
- 	<class>qtx.jpa.dominio.Vendedor</class>
+ 	<class>mx.com.qtx.jpa.dominio.Articulo</class>
+ 	<class>mx.com.qtx.jpa.dominio.Cliente</class>
+ 	<class>mx.com.qtx.jpa.dominio.Venta</class>
+ 	<class>mx.com.qtx.jpa.dominio.DetalleVenta</class>
+ 	<class>mx.com.qtx.jpa.dominio.Vendedor</class>
 
 	<properties>
 		<!-- Hibernate properties -->

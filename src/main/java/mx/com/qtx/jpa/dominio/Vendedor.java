@@ -25,7 +25,7 @@ public class Vendedor implements Serializable{
 	private List<Venta> ventas;
 	
 	@Version
-	@Column(name="VEN_VERSION_LOCK")
+	@Column(name="VEN_VERSION_LOCK", nullable=false)
 	private long version;
 	
 	public Vendedor() {

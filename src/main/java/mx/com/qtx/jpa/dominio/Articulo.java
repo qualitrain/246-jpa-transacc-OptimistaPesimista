@@ -2,7 +2,7 @@ package mx.com.qtx.jpa.dominio;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
-
+ 
 @Entity
 @Table(name="ART_ARTICULO")
 @NamedQuery(name="Articulo.findAll", 
@@ -27,7 +27,7 @@ public class Articulo implements Serializable {
 	private int existencia;
 
 	@Version
-	@Column(name="ART_VERSION_LOCK")
+	@Column(name="ART_VERSION_LOCK", nullable=false)
 	private long version;
 	
 	public Articulo() {

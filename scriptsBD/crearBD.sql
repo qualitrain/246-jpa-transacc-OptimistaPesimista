@@ -18,7 +18,8 @@
 --
 -- Table structure for table `art_articulo`
 --
-
+CREATE SCHEMA `bdejmtransacc02`;
+USE `bdejmtransacc02`;
 DROP TABLE IF EXISTS `art_articulo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
