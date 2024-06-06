@@ -1,4 +1,4 @@
-<%@ taglib prefix = "c" uri="jakarta.tags.core" %>
+<%@taglib prefix = "c" uri="jakarta.tags.core" %>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
